@@ -3,3 +3,5 @@
 .aws-sam
 __pycache__/
 *.py[cod]
+node_modules
+__pycache__
