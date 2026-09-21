@@ -1,0 +1,45 @@
+{
+  "version": "32.0.0",
+  "files": {
+    "85223b63dfa27c86cfc56357db4ae97aeb8714330dbadabcbc87f176195de2b8": {
+      "source": {
+        "path": "/Users/sukruti/workshop/ws-serverless-patterns",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "85223b63dfa27c86cfc56357db4ae97aeb8714330dbadabcbc87f176195de2b8.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "92e8a5c2606ccf774dff317453fa377b5d1984875c12184dd85cad1506dc0c37": {
+      "source": {
+        "path": "/Users/sukruti/workshop/ws-serverless-patterns",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "92e8a5c2606ccf774dff317453fa377b5d1984875c12184dd85cad1506dc0c37.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "b2e4f73dc554dc7b334a6fb3499079a0a1731702e6d89455d9c7f14d91320bcc": {
+      "source": {
+        "path": "ws-serverless-patterns.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "b2e4f73dc554dc7b334a6fb3499079a0a1731702e6d89455d9c7f14d91320bcc.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
